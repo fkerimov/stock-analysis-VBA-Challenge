@@ -10,7 +10,7 @@ The original script performed the analyses of the 2017 and 2018 stock market dat
 ### Refactored script performance measure for the 2017 dataset:
 ![VBA_Challenge_2017](resources/VBA_Challenge_2017.png)
 ### Refactored script performance for the 2018 dataset:
-![VBA_Challenge_2017](resources/VBA_Challenge_2017.png) 
+![VBA_Challenge_2017](resources/VBA_Challenge_2018.png) 
 
 The last two images show that the refactored script ran the analysis for the 2017 dataset in 0.6328125 seconds and the 2018 dataset in 0.6328125 seconds. The near 7% improvement in performance was achieved by creating output arrays to store the values for the volume, starting price, and ending price of each stock ticker in addition to the tickers array of the original script in the following manner:
 ```
