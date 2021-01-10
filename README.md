@@ -11,7 +11,8 @@ The original script performed the analyses of 2017 and 2018 stock market data se
 ![VBA_Challenge_2017](resources/VBA_Challenge_2017.png)
 ### Refactored script performance for the 2018 dataset
 ![VBA_Challenge_2017](resources/VBA_Challenge_2017.png) 
-The chance in performance was achieved by creating output arrays to store the values for the volume, starting price, and ending price of each stock ticker in addition to the tickers array of the original script in the following manner:
+
+The near 7% improvement in performance was achieved by creating output arrays to store the values for the volume, starting price, and ending price of each stock ticker in addition to the tickers array of the original script in the following manner:
 ‘Dim tickerVolumes(12) As Long’
 ‘Dim tickerStartingPrices(12) As Single’
 ‘Dim tickerEndingPrices(12) As Single’
